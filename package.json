@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "anime": "^0.1.2",
+    "animejs": "^3.2.0",
     "cra-template-typescript": "1.0.3",
+    "howler": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
