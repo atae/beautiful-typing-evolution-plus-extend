@@ -57,7 +57,7 @@ document.addEventListener("keydown", (e) => {
   // debugger
 // if ($('.currentText').text().length <= 2){
   counter ++;
-  $('.currentText').css("color", color)
+  document.getElementsByClassName('currentText')[0].style.color = color;
   if (counter % 30 === 0 || e.key == "1") {
     handleEvent(e)    // handleEvent;
   }
